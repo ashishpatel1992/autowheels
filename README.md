@@ -2,4 +2,4 @@
 
 For Autowheels project
 
-#TODO Update Project details Details
+#TODO Update Project details
