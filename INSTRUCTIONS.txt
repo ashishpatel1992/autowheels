@@ -1,0 +1,14 @@
+Instructions for running the code:-
+1) Setup the hotspot on the laptop with SSID = “open” and password = “123456789”.
+2) Now switch on the raspberry pi. It will automatically connect to your wifi hotspot.
+3) Now go to the hotspot settings on the laptop. There you will get the IP of the raspberry pi.
+4) Now open the remote desktop connection app (RDC) on windows 10 (preinstalled) or if you have the VNC viewer than open that.
+5) Now enter the pi’s IP address in any of the RDC or VNC viewer.
+6) After a successful connection, a dialog box asking the username and password would open. Username = “pi” and password = “autowheels”
+7) Now you have successfully logged into the raspberry pi.
+8) Now open a terminal and enter the command = “roscore”
+9) In a new a terminal, enter the command = “rosrun autowheels middleman” and press tab key and then press enter.
+10) Again in a new terminal, enter the command = “rosrun autowheels mouseSensor.py” and press enter.
+11) In a new terminal, enter the command = “rosrun autowheels imu_sensor.py” and press enter.
+12) In a new terminal, enter the command = “rosrun autowheels motor_drive.py” and press enter.
+13) Now everything should be running fine.
